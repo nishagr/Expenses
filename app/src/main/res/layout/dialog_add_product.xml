@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corners_rounded">
+
+    <EditText
+        android:id="@+id/etProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_product"
+        android:inputType="textCapWords"
+        tools:ignore="Autofill"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enter_date"
+            android:inputType="date"
+            tools:ignore="Autofill"
+            android:textAlignment="center"/>
+
+        <!--<ImageView
+            android:id="@+id/ivDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calendar"
+            android:contentDescription="@string/calender_view" />
+-->
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_price"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_remarks"
+        android:inputType="textCapWords"
+        tools:ignore="Autofill"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/buAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_expense"
+        android:layout_gravity="right"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

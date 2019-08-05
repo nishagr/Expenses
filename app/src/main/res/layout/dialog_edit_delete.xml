@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corners_rounded"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/tvEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <View
+        android:id="@+id/SplitLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"/>
+    <TextView
+        android:id="@+id/tvDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+</LinearLayout>

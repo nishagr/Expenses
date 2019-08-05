@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E43F3F</color>
+    <color name="colorPrimaryDark">#CC1D1D</color>
+    <color name="colorAccent">#CC1D1D</color>
+    <color name="colorTransparent">#D3D3D3</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#EFF0F1</color>
+
+    <color name="totalAmount">#66EC78</color>
+
+    <color name="tvBorrowed">#FFC8CE</color>
+    <color name="tvOwed">#C6EFCD</color>
+    <color name="tvNeutral">#FDEC9D</color>
+    <color name="tvTextBorrowed">#8C0515</color>
+    <color name="tvTextOwed">#115602</color>
+    <color name="tvTextNeutral">#926014</color>
+
+    <color name="maroon">#800000</color>
+    <color name="brown">#9A6324</color>
+    <color name="yellow">#FFE119</color>
+    <color name="cyan">#42D4F4</color>
+    <color name="purple">#911EB4</color>
+    <color name="green">#3CB44B</color>
+    <color name="navy">#000075</color>
+    <color name="teal">#469990</color>
+    <color name="magenta">#F032E6</color>
+    <color name="blue">#4363D8</color>
+    <color name="button">#FFB300</color>
+
+    <string-array name="colors">
+        <item>#800000</item>
+        <item>#9A6324</item>
+        <item>#FFE119</item>
+        <item>#42D4F4</item>
+        <item>#911EB4</item>
+        <item>#3CB44B</item>
+        <item>#000075</item>
+        <item>#469990</item>
+        <item>#F032E6</item>
+        <item>#4363D8</item>
+
+    </string-array>
+
+</resources>

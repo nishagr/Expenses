@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/corners_rounded">
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_year"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:layout_gravity="right"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/profile_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/buLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_out"
+                android:onClick="buLogout"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_password"
+        android:backgroundTint="@color/button"
+        android:onClick="buChangePassword"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/buChangeBankPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_banking_password"
+        android:backgroundTint="@color/button"
+        android:onClick="buChangeBankPassword"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/buBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backup"
+        android:backgroundTint="@color/green"
+        android:onClick="buBackup"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
